@@ -40,4 +40,34 @@ void loop() {
 
 ### Reflection
 ## Photointerupter
-##
+### Description
+### Code
+```
+int Led = 8;
+int photo = 2;
+int val;
+int photostate = 0;
+volatile byte state = LOW;
+int counter = 0; //variables
+
+void setup() {
+  pinMode(Led, OUTPUT); //set led as output
+  pinMode(photo, INPUT_PULLUP);    //output/input pins
+  Serial.begin(9600);           //links serial monitor
+  attachInterrupt(digitalPinToInterrupt(photo), Read, CHANGE);   //interrupts photo pin, makes state unequal which turns LED on
+}
+
+void loop() {
+  digitalWrite(Led, state);
+
+  Serial.print(state);//Prints state and counter value
+  Serial.print("   ");
+  Serial.println(counter/2);
+}
+
+void Read() {
+  state = !state; //Makes state unequal
+  counter++;}
+```
+### Wiring Diagram
+### Reflection

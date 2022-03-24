@@ -36,7 +36,7 @@ void loop() {
 }
 ```
 ### Wiring Diagram
-<img src="https://user-images.githubusercontent.com/71402927/138344088-56e3a8ef-92a5-4b82-a249-19817e1891a0.png" alt="Photoresistor" style="width:500px;">
+<img src="lcdwiring.png" alt="lcdwiring" style="width:500px;">
 
 ### Reflection
 ## Photointerupter

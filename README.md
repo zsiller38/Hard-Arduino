@@ -39,10 +39,12 @@ void loop() {
 <img src="lcdwiring.png" alt="lcdwiring" style="width:500px;">
 
 ### Reflection
+
 ## Photointerupter
 ### Description
+Create a code that will turn on a light when an object is placed in between a photointerupter. Also count the number of times the photointerupter has triggered and print that number in the serial monitor. 
 ### Code
-```
+```C++
 int Led = 8;
 int photo = 2;
 int val;
@@ -70,4 +72,5 @@ void Read() {
   counter++;}
 ```
 ### Wiring Diagram
+
 ### Reflection

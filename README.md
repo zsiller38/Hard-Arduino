@@ -72,5 +72,6 @@ void Read() {
   counter++;}
 ```
 ### Wiring Diagram
+<img src="photointerupter.png" alt="photointerupter" style="width:500px;">
 
 ### Reflection

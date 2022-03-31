@@ -39,7 +39,7 @@ void loop() {
 <img src="lcdwiring.png" alt="lcdwiring" style="width:500px;">
 
 ### Reflection
-
+I really enjoyed this project. It was the first time I had ever used a LCD display before and it was very cool. I did learn a few new thing about LCD's while doing this project. I need to remember to use set cursor otherwise none of the stuff you are trying to say will appear. I also need to remember to carefully examine were each wire goes, because with the back pack two wires go to anolog pin 4 and 5. I mixed this up a couple of times and the LCD did not work. Overall I liked this project. It was fun to write stuff on the display and the counter was pretty cool. 
 ## Photointerupter
 ### Description
 Create a code that will turn on a light when an object is placed in between a photointerupter. Also count the number of times the photointerupter has triggered and print that number in the serial monitor. 
@@ -75,3 +75,4 @@ void Read() {
 <img src="photointerupter.png" alt="photointerupter" style="width:500px;">
 
 ### Reflection
+I really like the Photointerupter project. Using attach interupt to make sure that the photointerupter would always trigger exactly when something was placed in it was really cool.  
